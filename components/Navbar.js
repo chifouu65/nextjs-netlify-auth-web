@@ -11,7 +11,7 @@ export default function Navbar() {
             <nav>
                 <Image src="/rupee.png" width={50} height={48}/>
                 <h1>Gaming Vibes</h1>
-                { authReady && (
+                { !authReady && (
                     <ul>
                         <li><Link href="/"><a>Home</a></Link></li>
                         <li><Link href="/guides"><a>Guides</a></Link></li>
