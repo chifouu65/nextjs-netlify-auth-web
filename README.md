@@ -1,5 +1,7 @@
 This is the starter site project & all course files for the Next.js & Netlify Identity tutorial on the Net Ninja YouTube channel. Check out the [full tutorial here](https://www.youtube.com/playlist?list=PL4cUxeGkcC9i4g-0dAaMmFAyM6k3FmuZz).
 
+Test website : https://app.netlify.com/sites/fanciful-raindrop-93d6f6/overview
+
 ### Getting Started
 To install the starter project:
 ```
