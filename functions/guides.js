@@ -1,8 +1,8 @@
 exports.handler = async (event, context) => {
     const guides = [
-        {title: 'Le Lorem Ipsum est simplement du faux texte employé dans la composi', author: 'mario'},
-        {title: 'ge avant impression. Le Lorem Ipsum est le faux texte standard deLe', author: 'luigi'},
-        {title: 'Le LLe Lorem Ipsum est simplement du faux texte employé dans la co', author: 'bowzer'},
+        {title: 'Is a 1er title', author: 'mario'},
+        {title: 'Is a 2d title', author: 'luigi'},
+        {title: 'Is a 3d title', author: 'bowzer'},
     ]
 
     if (context.clientContext.user) {
