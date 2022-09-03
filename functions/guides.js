@@ -5,7 +5,7 @@ exports.handler = async (event, context) => {
         { title: 'Le LLe Lorem Ipsum est simplement du faux texte employé dans la co', author: 'bowzer'}
     ]
 
-    //return object
+    //return
     return {
         statusCode: 200,
         body: JSON.stringify(guides)
