@@ -1,5 +1,4 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import {useContext} from "react";
 import AuthContext from "../stores/authContext";
 
@@ -9,7 +8,6 @@ export default function Navbar() {
     return (
         <div className="container">
             <nav>
-                <Image src="/rupee.png" width={50} height={48}/>
                 <h1>Gaming Vibes</h1>
                 { authReady && (
                     <ul>
