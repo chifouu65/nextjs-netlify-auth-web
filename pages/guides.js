@@ -4,7 +4,7 @@ import {useEffect} from "react";
 export default function Guides() {
 
     useEffect(() => {
-        fetch('./netlify/function/guides')
+        fetch('./netlify/functions/guides')
             .then(res => res.json())
             .then(data => console.log(data))
     }, [])
