@@ -8,7 +8,7 @@ export default function Navbar() {
     return (
         <div className="container">
             <nav>
-                <h1>Gaming Vibes</h1>
+                <h1>Login / SignUp</h1>
                 { authReady && (
                     <ul>
                         <li><Link href="/"><a>Home</a></Link></li>
