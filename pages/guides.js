@@ -40,7 +40,7 @@ export default function Guides() {
             {guides && guides.map(guide => (
                 <div key={guide.title} className={styles.card}>
                     <h3>Wrtitt by {guide.title}</h3>
-                    <h4>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</h4>
+                    <h4>avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</h4>
                 </div>
                 ))}
         </div>
